@@ -12,11 +12,11 @@ export function AuthSocial() {
       </div>
 
       <div className="flex items-center my-4">
-        <span className="flex-1 border-t" />
-        <span className="px-3 text-xs uppercase text-muted-foreground bg-background">
-          Or
+        <span className="flex-1 border-t border-border" />
+        <span className="z-10 px-3 text-xs uppercase text-muted-foreground bg-card">
+          OR
         </span>
-        <span className="flex-1 border-t" />
+        <span className="flex-1 border-t border-border" />
       </div>
     </>
   );
