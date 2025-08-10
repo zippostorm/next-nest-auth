@@ -1,3 +1,4 @@
+import { LoginForm } from "@/features/auth/components/LoginForm";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -5,5 +6,5 @@ export const metadata: Metadata = {
 };
 
 export default function RegisterPage() {
-  return <div>Login</div>;
+  return <LoginForm />;
 }

@@ -29,7 +29,7 @@ export function AuthWrapper({
 }: PropsWithChildren<AuthWrapperProps>) {
   return (
     <Card className="w-[400px]">
-      <CardHeader className="space-y-2">
+      <CardHeader className="space-y-2 text-center">
         <CardTitle className="text-2xl">{heading}</CardTitle>
         {description && <CardDescription>{description}</CardDescription>}
       </CardHeader>
